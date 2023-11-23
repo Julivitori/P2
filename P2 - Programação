@@ -1,0 +1,249 @@
+VISÃO COMPUTACIONAL NA IDENTIFICAÇÃO DE SUSPEITO NO ENTORNO DE EVENTOS ESPORTIVOS
+
+História do reconhecimento facial:
+
+Era 1: primeiros resultados da pesquisa (1964 – 1995)
+	
+O primeiro desenvolvimento facial do qual se tem conhecimento foi relatado em 1964, por Woodrow Bledsoe, que foi financiado por uma agência de inteligência a qual não foi divulgada. Com um livro de fotos e uma fotografia de investigação, Bledsoe usou um programa de computador para cruzar a identidade do suspeito com outra no livro de fotos. Apesar de seu método ter se tornado popular, na época, ele era caro e lento em termos computacionais. O pesquisador conseguia processar somente 40 fotos por hora. 
+
+Anos depois, surgiu um novo método chamado de eigenfaces, que consiste no reconhecimento e detecção facial que determina uma variação de faces possíveis dentro de um conjunto de dados. Mesmo sem informações completas, a abordagem reduz o processamento computacional.
+
+Contudo, ainda que Bledsoe tenha usado esse novo método, ele precisou de mais pessoas para modelar e para fotografar, para projetar as configurações da iluminação consistente ou controlada das imagens e para rotular os dados manualmente. 
+
+Era 2: viabilidade comercial (1996 – 2006)
+	
+Na expectativa de que a face pudesse ser utilizada para rastrear e identificar indivíduos sem a necessidade de uma participação física explícita, em 1996, funcionários do governo norte-americano adotaram o rosto como um atributo não invasivo. Dessa forma, surgiu um programa de Tecnologia de Reconhecimento Facial (FERET) com um financiamento de US$ 6,5 milhões, em que os pesquisadores tinham em mãos os dados necessários para aprimorar a tecnologia de reconhecimento facial.
+
+Quando o projeto teve início, o banco de dados possuía 2.413 imagens estáticas de rosto, representando 856 pessoas. Depois, esses números cresceram para 14.126 fotografias faciais de 1.119 indivíduos. Todas disponíveis a partir do consentimento deles, feitas por um ensaio fotográfico. 
+
+Na década de 2000, a necessidade de um maior conjunto de dados para pesquisas acadêmicas e comerciais foi necessário, o que fez com que surgissem novos bancos de imagens criados, também, a partir de sessões de fotos. Entretanto, mesmo com o consentimento dos participantes, os conjuntos possuem metadados com específicos como a idade, etnia e informações da iluminação. Dessa forma, os pesquisadores tiveram que buscar novos bancos de dados que possuíam uma maior capacidade e variedade, pois configurar os sistemas de acordo com o mundo real foi ficando difícil.  
+
+
+
+Era 3: imagens em ambientes irrestritos (2007 – 2013)
+
+Labeled Faces in the Wild (LFW) é considerado uma evolução do reconhecimento facial pelos pesquisadores, uma vez que os dados encontrados são mais naturais e diversos, começando a ser discutido o uso ético dessas imagens. Contudo, a coleta desses dados era feita sem o consentimento das pessoas, já que foram baixadas de sites famosos, como o Google, Flickr, Yahoo, entre outros. À medida que a tecnologia era testada e se aproximava do mundo real devido a essas imagens, mais as soluções baseadas em reconhecimento apresentavam sucesso.
+
+No entanto, ainda era preciso avaliar a questão do ambiente controlado por pessoas com aparência de modelo. Para isso, os pesquisadores continuaram buscando métodos e dados para melhorar o desempenho da tecnologia, adentrando para a última e atual era do reconhecimento facial.
+
+Era 4: avanço do Deep Learning (2014 – xxxx)
+
+O DeepFace é um sistema de reconhecimento facial do Deep Learning, criado por pesquisadores do Facebook. Ao abrir uma foto no Facebook, clicar na opção “Alterar texto alternativo” e ler a etiqueta que foi dada para a imagem, o indivíduo está utilizando essa tecnologia.  
+
+O DeepFace surgiu em 2014 quando o Facebook decidiu usar as fotos das pessoas cadastradas na rede social para treinar o algoritmo de Deep Learning. Isso porque ficou praticamente impossível a verificação manual e a rotulagem de imagens. Além disso, a precisão da tecnologia, de acordo com uma publicação do Facebook Research, é de 97,35%, sendo, na maioria das vezes, mais eficiente que uma pessoa humana.
+
+Contudo, a questão da Era 4 ainda é a mesma da Era 3, uma vez que o avanço da tecnologia tirou dos usuários o poder de consentimento, assim como trouxe à tona debates sobre a extração de imagens, identificação de IP e privacidade.  O problema com esse tipo de reconhecimento facial, é que o Facebook parou de dizer “esta é uma foto de pessoa X” para prever a personalidade dos usuários a partir das imagens que eles publicam, os colocando em categorias/rótulos que podem incluir terminologia ofensiva.
+
+
+O que é reconhecimento facial?
+
+Reconhecimento facial é uma forma de identificar ou confirmar a identidade de uma pessoa usando seu rosto. Os sistemas de reconhecimento facial podem ser usados para identificar pessoas em fotos, vídeos ou em tempo real. É uma categoria de segurança biométrica. 
+
+Outras formas de software biométrico incluem reconhecimento de voz, impressão digital, retina ocular ou íris. Na maioria das vezes, a tecnologia é usada para segurança e aplicação da lei, embora haja um interesse crescente em outras áreas de uso.
+
+
+
+
+Como o reconhecimento facial funciona?
+
+O reconhecimento facial, normalmente, não conta com um banco de dados vasto de fotos para determinar a identidade de uma pessoa, ele simplesmente identifica e reconhece como sendo a proprietária única, por exemplo, de um dispositivo, limitando o acesso de outros. Sendo com esse tipo de reconhecimento que muitas pessoas estão familiarizadas graças ao Face ID, que é um aplicativo de reconhecimento facial usado para desbloquear o iPhone. 
+
+Além de desbloquear telefones, o reconhecimento facial funciona fazendo a correspondência entre os rostos de pessoas que passam por câmeras especiais com imagens de pessoas em uma lista de observação, que podem conter imagens de qualquer pessoa, incluindo pessoas que não são suspeitas de irregularidades; e as imagens podem originar-se de qualquer lugar, até mesmo de nossas contas de redes sociais. Os sistemas de tecnologia facial podem variar, mas no geral, tendem a funcionar da seguinte forma:
+
+Etapa 1: Detecção do rosto
+
+A câmera detecta e localiza a imagem de um rosto, sozinho ou no meio de uma multidão. A imagem da pessoa pode ser de frente ou de perfil.
+
+Etapa 2: Análise do rosto
+
+Depois, uma imagem do rosto é capturada e analisada. A maioria das tecnologias de reconhecimento facial conta com imagens 2D em vez de 3D, porque é mais conveniente fazer a correspondência de imagens 2D com fotos públicas ou de um banco de dados. Assim, o software faz a leitura da geometria do seu rosto, sendo os principais fatores a distância entre seus olhos, a profundidade de suas órbitas oculares, a distância entre a testa e o queixo, o formato da maçã do rosto e o contorno dos lábios, das orelhas e do queixo. O objetivo é identificar os pontos de referência faciais principais que distinguem o rosto.
+
+Etapa 3: Conversão da imagem em dados
+
+O processo de captura facial transforma as informações analógicas (um rosto) em um conjunto de informações digitais (dados) com base nas características faciais da pessoa. A análise do seu rosto é basicamente transformada em uma fórmula matemática, onde código numérico é chamado de impressão facial. Da mesma forma que as impressões digitais são únicas, cada pessoa possui sua própria impressão facial.
+
+Etapa 4: Localização de uma correspondência
+
+A impressão facial é comparada com um banco de dados de outros rostos conhecidos. Por exemplo, o FBI tem acesso até 650 milhões de fotos, extraídas de vários bancos de dados estaduais. No Facebook, qualquer foto marcada com o nome de uma pessoa torna-se parte do banco de dados do Facebook, que também pode usada para reconhecimento facial. Se a sua impressão facial corresponder a uma imagem de um banco de dados de reconhecimento facial, uma determinação será feita.
+
+De todas as medições biométricas, o reconhecimento facial é considerado o mais natural. Intuitivamente, isso faz sentido, já que normalmente reconhecemos uns aos outros pelos nossos rostos, e não por impressões digitais e íris. Estima-se que mais da metade da população mundial passa por reconhecimento facial regularmente.
+
+
+Vantagens do reconhecimento facial:
+
+A maioria das soluções de reconhecimento facial são compatíveis com os softwares de segurança, podendo ser facilmente integrada. Dessa forma, possui algumas vantagens, como:
+
+
+Reforço à segurança
+
+O reconhecimento facial pode ajudar a identificar terroristas ou outros criminosos, a nível governamental. Em nível pessoal, o reconhecimento facial pode ser usado como uma ferramenta de segurança que bloqueia dispositivos pessoais e em câmeras de vigilância pessoal.
+
+
+Redução de crimes
+
+O reconhecimento facial facilita o rastreamento de assaltantes, ladrões e invasores, esse método pode ser usado para acusar os criminosos, principalmente os de pequenos delitos. Além disso, auxilia na cibersegurança, já que as empresas podem usar a tecnologia como substituta de senhas de acesso a computadores e ao local de trabalho. Teoricamente, a tecnologia não pode ser hackeada, já que não há nada para ser roubado ou modificado, como no caso da senha.
+
+
+Eliminar a tendenciosidade durante revistas policiais
+
+A questão pública em relação às revistas policiais injustificadas é uma fonte de controvérsias para a polícia, além de ser questionada pela sociedade. Nesse caso, a tecnologia pode auxiliar na identificação de suspeitos em meio a multidões por meio de um processo automatizado, em vez de humano, ajudando a reduzir a possível tendenciosidade e revistas policiais em cidadãos cumpridores da lei.
+
+
+Maior conveniência
+
+O reconhecimento facial, por não necessitar de contato, torna a experiência de verificação rápida, automática e ininterrupta, agilizando os processos do dia a dia, como pagar as compras usando o reconhecimento facial, em vez de ter que tirar cartões de crédito ou dinheiro do bolso. 
+
+
+
+
+Processamento mais rápido
+
+O processo de reconhecimento facial leva apenas um segundo, o que traz benefícios para as empresas que utilizam essa tecnologia. Em uma era de ataques cibernéticos e ferramentas de hackeamento avançadas, as empresas precisam de tecnologias seguras e rápidas. 
+
+
+Desvantagens do reconhecimento facial:
+
+Algumas pessoas não se importam em serem filmadas em público e não se opõem ao uso de reconhecimento facial em casos em que os benefícios são claros ou lógicos, mas a tecnologia pode inspirar reações intensas de outras pessoas. Algumas das desvantagens ou questões incluem:
+
+Vigilância
+
+O fato de que o uso de reconhecimento facial juntamente com câmeras de vídeo onipresentes, inteligência artificial e análise de dados cria a possibilidade de vigilância em massa preocupa uma parcela da sociedade, já que poderia restringir a liberdade individual. Embora a tecnologia de reconhecimento facial possibilite que órgãos do governo rastreiem criminosos, ela também permite o rastreamento a qualquer momento de pessoas comuns e inocentes.
+
+Possibilidade de erros
+
+Os dados obtidos com o reconhecimento facial estão passíveis a erros, o que pode levar pessoas a serem culpadas por crimes que não cometeram. Por exemplo, uma leve mudança no ângulo da câmera ou mudança de aparência, como um novo estilo de cabelo, pode levar a um erro. Em 2018, a Newsweek relatou que a tecnologia de reconhecimento facial da Amazon identificou erroneamente 28 membros do Congresso norte-americano como presos por crimes.
+
+Violação da privacidade
+
+A questão da ética e privacidade é a mais controversa, uma vez que órgãos do governo armazenam imagens de vários cidadãos sem o consentimento deles. Em 2020, a Comissão Europeia afirmou que estava considerando banir a tecnologia de reconhecimento facial em espaços públicos por até cinco anos, tempo suficiente para a criação de uma estrutura regulamentar para evitar abusos contra a ética e a privacidade.
+
+Armazenamento de dados em massa
+
+O software de reconhecimento facial conta com a tecnologia de aprendizagem de máquina, que requer conjuntos de dados em massa para "aprender" e oferecer resultados precisos. Esses conjuntos volumosos de dados requerem armazenamento eficiente. Empresas de pequeno e médio porte podem não ter recursos suficientes para armazenar os dados necessários.
+
+
+Torcidas Organizadas:
+
+Uma das primeiras torcidas organizadas que se tem conhecimento foi a do Atlético Mineiro, sendo formada por mulheres que iam aos estádios com bandeiras uniformizadas para acompanhar seus maridos. No entanto, esse fenômeno só foi ganhar força na década de 60 se tornando uma parte da cultura do futebol com suas bandeiras, faixas e cânticos que animam a arquibancada e incentivam o time, além de atuarem como protagonistas em protestos e surgir com questionamentos aos gestores do time. 
+
+Contudo, a partir das décadas de 80 e 90 essas torcidas passaram a ter um histórico de violência e confronto tanto com outras torcidas tanto com a polícia, o que gerou algumas medidas para coibir a violências nos estádios, como a proibição de bandeiras e instrumentos musicais em algumas arenas, a criação de delegacias especializadas em ocorrências envolvendo torcedores e a implementação de câmeras de segurança.
+
+Esses acontecimentos ainda são recorrentes no século XIX, onde inúmeros casos de violência são registrados. Além disso, há o envolvimento das torcidas organizadas em diversos crimes. Um caso que teve repercussão foi o do Palmeiras, em que uma nova torcida organizada intitulada “Guerreiros Alviverdes”, que foi formulada em 2020 por ex-membros da “Mancha verde”, da qual foram expulsos por serem suspeitos do homicídio de um dos fundadores por ele não concordar com a entrada de um integrante do PCC na diretoria. Isso fez com que a organizada expulsasse todos os integrantes que eram ligados à facção. Assim, um dos integrantes da “Guerreiros Alviverdes” foi preso em Minas Gerais acusado de ser o responsável de incendiar três caminhões cegonhas, que fazia parte de um plano da facção que utiliza os caminhões para transportar drogas e armas. 
+
+Violência em Estádios:
+
+Caso do Vasco:
+
+Após o apito final na derrota por 1 a 0 para o Goiás, pela 11ª rodada do Campeonato Brasileiro, torcedores cruz-maltinos protagonizaram cenas de vandalismo em São Januário, onde sinalizadores foram atirados dentro de campo. Com a intervenção da polícia, spray de pimenta foi utilizado para tentar dispersar a confusão, ocorrendo correria nas arquibancadas. Alguns torcedores ainda tentaram quebrar a proteção em acrílico na tentativa de invadir o gramado, mas não conseguiram. 
+
+Os jogadores do Goiás tiveram que esperar cerca de 15 minutos para deixar o campo, tendo que descer para o vestiário protegidos por policiais. Na súmula, o árbitro Jean Pierre Gonçalves Lima ainda relatou que o carro da arbitragem foi avariado com pedras, sendo amassado, arranhado e quebrado por vândalos que invadiram o estacionamento do estádio.
+
+A punição, que é preventiva e tem validade por 30 dias até o julgamento do caso na primeira instância do Superior Tribunal de Justiça Desportiva - STJD, foi a mesma dada ao Santos, na derrota no clássico para o Corinthians, também pelo Brasileirão, que terminou em confusão na Vila Belmiro. A partida, inclusive, foi encerrada antes dos 90 minutos pelo árbitro por falta de segurança. Fora do estádio, torcedores também entraram em confronto com a polícia. 
+
+O presidente do Superior Tribunal de Justiça Desportiva (STJD), José Perdiz, acatou o pedido da Procuradoria do órgão e determinou que o Vasco jogue sem torcida - como mandante e visitante - por 30 dias. A determinação passa a valer de forma imediata, com os jogos em São Januário sendo disputados com os portões fechados, enquanto nas partidas como visitante, será proibida a presença de torcedores do Cruzmaltino.
+
+
+Vale ressaltar, que o STJD não faz parte do poder Judiciário, mas é previsto no Código Brasileiro de Justiça Desportiva, sendo um órgão autônomo, custeado pela Confederação Brasileira de Futebol, onde são discutidas as legalidades do futebol e julga os acontecimentos do esporte. 
+
+O Vasco assinou um acordo junto ao Ministério Público do Estado do Rio de Janeiro (MPRJ) para voltar a receber partidas com a presença do público. O Termo de Ajustamento de Conduta (TAC) prevê uma série de alterações no estádio, como obras estruturais e investimento em tecnologia. A principal delas é a instalação de sistema de biometria facial nas catracas de acesso, inédita nos estádios do Rio.
+
+Segundo o clube, o reconhecimento facial começará a ser implementado por fases ainda este mês. A conclusão está prevista para junho de 2024. Após o acordo, o Vasco anunciou que o plano "promete modernizar a experiência em São Januário, colocando o estádio entre os mais seguros do país".
+
+Entre outras medidas está a reforma e ampliação do principal portão de acesso ao estádio, a instalação de câmeras de vigilância de alta resolução com capacidade de identificar todas as pessoas presentes no estádio, além da colocação dessas mesmas câmeras do lado externo do São Januário.
+
+O Vasco também se comprometeu a garantir ao MPRJ e aos demais órgãos públicos fiscalizadores assentos no Centro de Monitoramento e Segurança do estádio e acesso a todas as imagens captadas pelas câmeras.
+
+
+Reconhecimento Facial nos estádios e o combate à violência:
+
+Infelizmente, os casos de violência no futebol brasileiro não são uma novidade, muito menos em casos isolados, já que é marcado por um episódio de violência a cada quatro dias. E, segundo o Centro de Pesquisa de Mestrado da Universo, de 2009 a 2019 o futebol brasileiro viu 157 mortes envolvendo brigas de torcidas de clubes nas principais divisões do país. Por isso, buscar soluções efetivas para garantir a segurança nesses locais tem sido uma prioridade, e a tecnologia de reconhecimento facial por biometria surge como uma das melhores alternativas.
+
+Não são poucas as arenas que possuem algum tipo de sistema de reconhecimento facial. Aqui no Brasil, o Palmeiras já exige o cadastro do rosto de cada torcedor para ingressar no Allianz Parque e a ideia começa a ganhar defensores em outros estados. Quem mora no Rio de Janeiro, por exemplo, já viu a polícia prender criminosos procurados por meio desse sistema nos jogos realizados nos finais de semana. Principalmente no Maracanã.
+Os defensores do reconhecimento facial argumentam que será muito mais fácil identificar possíveis brigões e coibir a violência, já que terá uma facilidade melhor para saber quem estava dentro do estádio num determinado jogo e/ou evento. Ao mesmo tempo, o cambismo seria praticamente extinto. Como todos os torcedores seriam obrigados a usar seus dados biométricos para acessar as arenas, se torna impossível comprar a entrada e repassá-la para outra pessoa.
+
+O monitoramento ajudou a Secretaria de Segurança Pública de São Paulo a identificar 28 criminosos, que foram presos em quatro jogos. Outra prisão graças ao reconhecimento facial foi a de Jonathan Messias, torcedor do Flamengo, suspeito de jogar a garrafa que atingiu e matou a palmeirense Gabriela Anelli durante uma confusão entre torcidas no entorno da arena.
+
+Caso palmeiras:
+
+A Polícia Civil de São Paulo informou nesta terça-feira (25) que identificou e prendeu um torcedor do Flamengo suspeito de ter matado a palmeirense Gabriela Anelli, de 23 anos. Ela foi atingida por uma garrafa de vidro durante uma confusão entre torcidas no entorno do estádio do Palmeiras, Zona Oeste da capital paulista, no dia 8 de julho.
+Em coletiva de imprensa, a Polícia Civil afirmou que o torcedor do Flamengo foi identificado por sistema de reconhecimento facial do estádio do Palmeiras.
+
+
+Goiás:
+
+As catracas do Estádio Hailé Pinheiro, também conhecido como “Serrinha” e de propriedade do Goiás Esporte Clube, agora só permitirão a entrada do torcedor com o reconhecimento facial e ingresso nominal, intransferível e com a foto do comprador. Todos, obrigatoriamente, precisam estar registrados no banco de dados do clube, seja o público ‘da casa’, cortesia, funcionário ou visitante.
+
+A nova regra já foi utilizada nas últimas duas partidas da equipe na Série A do Campeonato Brasileiro, contra o Corinthians e o Juventude, tornando o Goiás, o primeiro clube de futebol brasileiro a implementar tal tecnologia, que compara o rosto de cada torcedor e verifica a identidade com base num banco de dados do Goiás. Desde a implementação, mais de 500 pessoas já foram barradas ao tentar entrar no estádio.
+
+Além de segurança, a tecnologia traz retorno financeiro. Diversos clubes procuram o Goiás, alguns com propostas de aplicar o sistema em seus estádios e resolver a questão do cambismo, em que muitos se passavam por sócio-torcedores falsos para revender depois.
+
+A Bepass, empresa responsável por esse sistema de reconhecimento facial, pode chegar a ser encarregada de 45% dos times do Brasileirão, já que além do Goiás, o Palmeiras, o Vasco, o Atlético Mineiro, e agora, o Flamengo, utilizam da tecnologia. 
+
+
+
+
+
+Lei 14597/23
+
+Recentemente, em 15 de junho, foi sancionada a Lei Geral do Esporte (Lei nº 14.597/2023 – LGE), que estabelece a obrigatoriedade de adoção de biometria por reconhecimento facial nos estádios com capacidade de até 20 mil pessoas, pelo período de dois anos.
+
+
+Lei 2745/23
+
+A Comissão de Segurança Pública da Câmara dos Deputados aprovou o Projeto de Lei 2745/23, que estabelece diretrizes para o uso e a implementação de tecnologia de câmeras e sistemas de videomonitoramento com reconhecimento facial em estádios de futebol e outros locais de competições profissionais. Entretanto, ao definir prazo para mudanças, acabou em conflito com a recente Lei Geral do Esporte, que já prevê a adoção da tecnologia nos estádios até junho de 2025. Diante disso, no texto aprovado o sistema de reconhecimento facial será facultativo, de acordo com a necessidade de cada local para garantir a proteção dos direitos fundamentais, assegurar a privacidade e a segurança dos torcedores e jogadores.
+
+Sendo de exclusiva responsabilidade das entidades públicas e privadas que usarem a tecnologia de reconhecimento facial o tratamento e o compartilhamento dos dados biométricos. Não poderá haver o repasse a terceiros, salvo em casos de defesa nacional e segurança pública, como investigação e repressão de crimes. Ainda segundo o texto, a Lei Geral de Proteção de Dados (LGPD) deverá ser observada pelos responsáveis. Será ainda proibido o uso indiscriminado da tecnologia de reconhecimento facial em locais onde o usuário deve ter a sua privacidade garantida, como banheiros, vestiários, salas de café e refeitórios.
+
+Por fim, o projeto tramita em caráter conclusivo e será analisado ainda pelas comissões do Esporte; e de Constituição e Justiça e de Cidadania.
+
+
+
+
+
+
+
+
+
+Referências:
+
+https://exame.com/bussola/futebol-como-o-reconhecimento-facial-pode-auxiliar-no-combate-a-violencia/
+
+https://g1.globo.com/jornal-hoje/noticia/2023/10/18/clubes-da-serie-a-do-brasileirao-comecam-a-aderir-ao-reconhecimento-facial-nas-portas-dos-estadios.ghtml
+
+https://www.camara.leg.br/noticias/989123-comissao-aprova-proposta-que-define-regras-para-uso-de-reconhecimento-facial-em-estadios/
+
+https://ge.globo.com/negocios-do-esporte/noticia/2023/01/17/reconhecimento-facial-no-estadio-do-palmeiras-abre-debate-sobre-beneficios-e-perda-de-privacidade.ghtml
+https://www.em.com.br/app/colunistas/jaeci-carvalho/2023/09/25/interna_jaeci_carvalho,1566508/reconhecimento-facial-sera-exigencia.shtml
+
+https://cryptoid.com.br/biometria/a-biometria-facial-ja-e-realidade-para-coibir-violencia-nos-estadios-de-futebol/
+
+https://www.brasildefatorj.com.br/2023/04/19/reconhecimento-facial-dados-biometricos-e-futebol-uma-pequena-reflexao-sobre-os-novos-tempos
+
+https://www.tribunadoagreste.com.br/2023/04/cameras-com-reconhecimento-facial-poderao-ajudar-no-combate-violencia-nos-estadios/
+
+https://www.techtudo.com.br/noticias/2023/07/como-funciona-o-reconhecimento-facial-do-estadio-do-palmeiras-edsoftwares.ghtml
+
+https://www12.senado.leg.br/radio/1/noticia/2023/09/06/comissao-de-seguranca-publica-vai-discutir-a-violencia-nos-estadios-de-futebol
+
+https://www.espn.com.br/futebol/vasco/artigo/_/id/12227574/atos-vandalismo-sao-januario-stjd-determina-jogos-vasco-sem-torcida-por-30-dias
+
+https://www.kaspersky.com.br/resource-center/definitions/what-is-facial-recognition#:~:text=O%20Facebook%20come%C3%A7ou%20a%20usar,de%20quem%20essa%20pessoa%20%C3%A9.
+
+https://www.linkedin.com/pulse/e-a%C3%AD-como-surgiu-o-reconhecimento-facial-juliano-bas%C3%ADlio?utm_source=share&utm_medium=member_android&utm_campaign=share_via
+
+https://igarape.org.br/infografico-reconhecimento-facial-no-brasil/
+
+https://proximonivel.embratel.com.br/as-quatro-eras-do-reconhecimento-facial-e-seu-efeito-na-privacidade/
+
+https://www.brasildefato.com.br/2023/09/15/justica-exige-reconhecimento-facial-no-estadio-de-sao-januario-vasco-acata
+
+https://veja.abril.com.br/esporte/goias-implementa-reconhecimento-facial-para-100-do-estadio/
+
+https://g1.globo.com/sp/sao-paulo/noticia/2023/07/25/policia-civil-de-sp-identifica-e-prende-torcedor-do-flamengo-suspeito-de-ter-matado-a-torcedora-do-palmeiras-gabriela-anelli.ghtml
+https://www.cnnbrasil.com.br/esportes/maiores-torcidas-organizadas-do-brasil/
+
+https://brasilescola.uol.com.br/educacao-fisica/torcidas-organizadas.htm
+
+https://www.terra.com.br/esportes/futebol/tecnologia-de-reconhecimento-facial-que-teve-o-goias-como-pioneiro-pode-chegar-a-45-dos-times-do-brasileirao,0a7a734cbd50734f3b1a05e5ed618f8d27u4eoee.html
+
+https://www.band.uol.com.br/esportes/vingan%C3%A7a-e-lavagem-de-dinheiro:-pcc-cria-torcida-organizada-do-palmeiras-16320837
